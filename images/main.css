@@ -81,10 +81,17 @@
     }
 
     .qui-aside{
+        position: absolute;
+        top: 50px;
+        left: 395px;
         height: 800px;
         width: 200px;
         border: 1pc solid black;
         background-color: #2d3741;
+    }
+
+    .nav-aside{
+        padding: 80px 10px;
     }
 
     ul{
@@ -94,5 +101,28 @@
     .nav-aside{
         font-size: 16px;
         color: #ce1d5c;
+        line-height: 44px;
         text-decoration: none;
+        padding-left: 20px;
+        display: block;
+    }
+
+    .nav-aside  a:hover{
+        color: white;
+        background-color: #2bab79;
+    }
+
+    .qui-footer{
+        border: 1px solid red;
+        line-height: 20px;
+        text-align: center;
+        background-color: #2d3741;
+    }
+
+    .qui-footer a{
+        text-decoration: none;
+        line-height: 70px;
+        color: #444;
+        margin-left: 40px;
+        font-size: 10px;
     }
